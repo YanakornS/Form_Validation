@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.2 on win32)" generated="2024-04-01T14:07:41.909341" rpa="false" schemaversion="5">
+<suite id="s1" name="Google Search" source="D:\Code\Form Validation\Test_Robot\Robot_Google\google_search.robot">
+<test id="s1-t1" name="Inpu GoogleFirstNameUK" line="25">
+<kw name="Open Google">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-04-01T14:07:42.079383" level="INFO">Opening browser 'Chrome' to base url 'https://form-validation-five-blond.vercel.app/'.</msg>
+<arg>https://form-validation-five-blond.vercel.app/</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-04-01T14:07:42.079383" elapsed="1.602490"/>
+</kw>
+<status status="PASS" start="2024-04-01T14:07:42.079383" elapsed="1.602490"/>
+</kw>
+<kw name="Input FirstNameUK">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-04-01T14:07:43.682874" level="INFO">Typing text 'yanakorn' into text field 'name=firstNameUK'.</msg>
+<arg>name=firstNameUK</arg>
+<arg>${INPUT_FIRSTNAMEENG}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-01T14:07:43.682874" elapsed="0.099022"/>
+</kw>
+<status status="PASS" start="2024-04-01T14:07:43.681873" elapsed="0.100023"/>
+</kw>
+<kw name="Click Element Field">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-04-01T14:07:43.782896" level="INFO">Clicking element 'id=firstNameTH'.</msg>
+<arg>id=firstNameTH</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-01T14:07:43.782896" elapsed="0.043010"/>
+</kw>
+<status status="PASS" start="2024-04-01T14:07:43.782896" elapsed="0.043010"/>
+</kw>
+<kw name="Verify FirstnameUK Results">
+<kw name="Wait Until Page Contains" owner="SeleniumLibrary">
+<arg>${RESULT_FIRSTNAMEENG}</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<status status="PASS" start="2024-04-01T14:07:43.827906" elapsed="0.009003"/>
+</kw>
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2024-04-01T14:07:43.846910" level="INFO">Current page contains text 'ชื่อต้องเริ่มด้วยตัวใหญ่และตามด้วยตัวเล็ก'.</msg>
+<arg>${RESULT_FIRSTNAMEENG}</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2024-04-01T14:07:43.837909" elapsed="0.009001"/>
+</kw>
+<status status="PASS" start="2024-04-01T14:07:43.826906" elapsed="0.020004"/>
+</kw>
+<doc>Test case ชื่อต้องเริ่มด้วยตัวใหญ่และตามด้วยตัวเล็ก</doc>
+<status status="PASS" start="2024-04-01T14:07:42.077383" elapsed="1.770528"/>
+</test>
+<test id="s1-t2" name="Inpu GoogleLastNameUK" line="32">
+<kw name="Open Google">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-04-01T14:07:43.849911" level="INFO">Opening browser 'Chrome' to base url 'https://form-validation-five-blond.vercel.app/'.</msg>
+<arg>https://form-validation-five-blond.vercel.app/</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-04-01T14:07:43.849911" elapsed="1.548574"/>
+</kw>
+<status status="PASS" start="2024-04-01T14:07:43.849911" elapsed="1.549575"/>
+</kw>
+<kw name="Input LastNameUK">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-04-01T14:07:45.400486" level="INFO">Typing text 'srinuan' into text field 'name=lastNameUK'.</msg>
+<arg>name=lastNameUK</arg>
+<arg>${INPUT_LastNameUK}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-01T14:07:45.400486" elapsed="0.142032"/>
+</kw>
+<status status="PASS" start="2024-04-01T14:07:45.400486" elapsed="0.142032"/>
+</kw>
+<kw name="Click Element Field">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-04-01T14:07:45.545518" level="INFO">Clicking element 'id=firstNameTH'.</msg>
+<arg>id=firstNameTH</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-01T14:07:45.544518" elapsed="0.071016"/>
+</kw>
+<status status="PASS" start="2024-04-01T14:07:45.544518" elapsed="0.072016"/>
+</kw>
+<kw name="Verify LastNameUK Results">
+<kw name="Wait Until Page Contains" owner="SeleniumLibrary">
+<arg>${RESULT_LastNameUK}</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<status status="PASS" start="2024-04-01T14:07:45.620535" elapsed="0.016004"/>
+</kw>
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2024-04-01T14:07:45.645541" level="INFO">Current page contains text 'นามสกุลต้องเริ่มด้วยตัวใหญ่และตามด้วยตัวเล็ก'.</msg>
+<arg>${RESULT_LastNameUK}</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2024-04-01T14:07:45.636539" elapsed="0.010002"/>
+</kw>
+<status status="PASS" start="2024-04-01T14:07:45.620535" elapsed="0.026006"/>
+</kw>
+<doc>Test case นามสกุลต้องเริ่มด้วยตัวใหญ่และตามด้วยตัวเล็ก</doc>
+<status status="PASS" start="2024-04-01T14:07:43.848912" elapsed="1.797629"/>
+</test>
+<test id="s1-t3" name="Inpu GoogleGmail" line="40">
+<kw name="Open Google">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-04-01T14:07:45.649542" level="INFO">Opening browser 'Chrome' to base url 'https://form-validation-five-blond.vercel.app/'.</msg>
+<arg>https://form-validation-five-blond.vercel.app/</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-04-01T14:07:45.649542" elapsed="1.554118"/>
+</kw>
+<status status="PASS" start="2024-04-01T14:07:45.648541" elapsed="1.555119"/>
+</kw>
+<kw name="Input Email">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-04-01T14:07:47.206660" level="INFO">Typing text 'Yanakorn@webmail.npru.ac.th' into text field 'name=email'.</msg>
+<arg>name=email</arg>
+<arg>${INPUT_EMAIL}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-01T14:07:47.206660" elapsed="0.171038"/>
+</kw>
+<status status="PASS" start="2024-04-01T14:07:47.206660" elapsed="0.171038"/>
+</kw>
+<kw name="Click Element Field">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-04-01T14:07:47.378699" level="INFO">Clicking element 'id=firstNameTH'.</msg>
+<arg>id=firstNameTH</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-01T14:07:47.378699" elapsed="0.055012"/>
+</kw>
+<status status="PASS" start="2024-04-01T14:07:47.377698" elapsed="0.056013"/>
+</kw>
+<kw name="Verify Email Results">
+<kw name="Wait Until Page Contains" owner="SeleniumLibrary">
+<arg>${RESULT_EMAIL}</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<status status="PASS" start="2024-04-01T14:07:47.433711" elapsed="0.012002"/>
+</kw>
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2024-04-01T14:07:47.455716" level="INFO">Current page contains text 'อีเมลต้องมีชื่อโดเมนเฉพาะ Gmail'.</msg>
+<arg>${RESULT_EMAIL}</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2024-04-01T14:07:47.445713" elapsed="0.010003"/>
+</kw>
+<status status="PASS" start="2024-04-01T14:07:47.433711" elapsed="0.022005"/>
+</kw>
+<doc>Test case อีเมลต้องมีชื่อโดเมนเฉพาะ Gmail</doc>
+<status status="PASS" start="2024-04-01T14:07:45.647541" elapsed="1.809175"/>
+</test>
+<test id="s1-t4" name="Inpu Password" line="48">
+<kw name="Open Google">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-04-01T14:07:47.458717" level="INFO">Opening browser 'Chrome' to base url 'https://form-validation-five-blond.vercel.app/'.</msg>
+<arg>https://form-validation-five-blond.vercel.app/</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-04-01T14:07:47.458717" elapsed="1.633925"/>
+</kw>
+<status status="PASS" start="2024-04-01T14:07:47.457716" elapsed="1.634926"/>
+</kw>
+<kw name="Input Password">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-04-01T14:07:49.093643" level="INFO">Typing text '002' into text field 'name=password'.</msg>
+<arg>name=password</arg>
+<arg>${INPUT_PASSWORD}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-01T14:07:49.093643" elapsed="0.088020"/>
+</kw>
+<status status="PASS" start="2024-04-01T14:07:49.093643" elapsed="0.088020"/>
+</kw>
+<kw name="Click Element Field">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-04-01T14:07:49.182662" level="INFO">Clicking element 'id=firstNameTH'.</msg>
+<arg>id=firstNameTH</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-01T14:07:49.181663" elapsed="0.054012"/>
+</kw>
+<status status="PASS" start="2024-04-01T14:07:49.181663" elapsed="0.054012"/>
+</kw>
+<kw name="Verify Password Results">
+<kw name="Wait Until Page Contains" owner="SeleniumLibrary">
+<arg>${RESULT_PASSWORD}</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<status status="PASS" start="2024-04-01T14:07:49.236675" elapsed="0.011002"/>
+</kw>
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2024-04-01T14:07:49.255679" level="INFO">Current page contains text 'รหัสผ่านต้องมีอย่างน้อย 6 ตัวอักษร'.</msg>
+<arg>${RESULT_PASSWORD}</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2024-04-01T14:07:49.247677" elapsed="0.008002"/>
+</kw>
+<status status="PASS" start="2024-04-01T14:07:49.236675" elapsed="0.019004"/>
+</kw>
+<doc>Test case รหัสผ่านต้องมีอย่างน้อย 6 ตัวอักษร</doc>
+<status status="PASS" start="2024-04-01T14:07:47.457716" elapsed="1.798963"/>
+</test>
+<test id="s1-t5" name="Inpu Phone Number" line="55">
+<kw name="Open Google">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-04-01T14:07:49.258680" level="INFO">Opening browser 'Chrome' to base url 'https://form-validation-five-blond.vercel.app/'.</msg>
+<arg>https://form-validation-five-blond.vercel.app/</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-04-01T14:07:49.258680" elapsed="1.564102"/>
+</kw>
+<status status="PASS" start="2024-04-01T14:07:49.257679" elapsed="1.565103"/>
+</kw>
+<kw name="Input PhoneNumber">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-04-01T14:07:50.823782" level="INFO">Typing text '09240885Yan' into text field 'name=phone'.</msg>
+<arg>name=phone</arg>
+<arg>${INPUT_PHONENUM}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-01T14:07:50.823782" elapsed="0.143032"/>
+</kw>
+<status status="PASS" start="2024-04-01T14:07:50.823782" elapsed="0.143032"/>
+</kw>
+<kw name="Click Element Field">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-04-01T14:07:50.967814" level="INFO">Clicking element 'id=firstNameTH'.</msg>
+<arg>id=firstNameTH</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-01T14:07:50.967814" elapsed="0.050395"/>
+</kw>
+<status status="PASS" start="2024-04-01T14:07:50.966814" elapsed="0.051395"/>
+</kw>
+<kw name="Verify PhoneNumber Results">
+<kw name="Wait Until Page Contains" owner="SeleniumLibrary">
+<arg>${RESULT_PHONENUM}</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<status status="PASS" start="2024-04-01T14:07:51.019209" elapsed="0.010002"/>
+</kw>
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2024-04-01T14:07:51.043215" level="INFO">Current page contains text 'เบอร์โทรศัพท์ต้องประกอบด้วยตัวเลข 10 หลักเท่านั้น'.</msg>
+<arg>${RESULT_PHONENUM}</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2024-04-01T14:07:51.029211" elapsed="0.014004"/>
+</kw>
+<status status="PASS" start="2024-04-01T14:07:51.019209" elapsed="0.024006"/>
+</kw>
+<doc>Test case เบอร์โทรศัพท์ต้องประกอบด้วยตัวเลข 10 หลักเท่านั้น</doc>
+<status status="PASS" start="2024-04-01T14:07:49.256679" elapsed="1.787536"/>
+</test>
+<status status="PASS" start="2024-04-01T14:07:41.910341" elapsed="9.134874"/>
+</suite>
+<statistics>
+<total>
+<stat pass="5" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="5" fail="0" skip="0" id="s1" name="Google Search">Google Search</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
