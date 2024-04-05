@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.2 on win32)" generated="2024-04-05T17:16:51.635096" rpa="false" schemaversion="5">
+<suite id="s1" name="Tests chema validation" source="D:\Code\Form Validation\Form_Validation\TestRobot_Google\Tests_chema_validation.robot">
+<test id="s1-t1" name="Inpu GoogleFirstNameUK" line="25">
+<kw name="Open Google">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-04-05T17:16:51.822516" level="INFO">Opening browser 'Chrome' to base url 'https://form-validation-five-blond.vercel.app/'.</msg>
+<arg>https://form-validation-five-blond.vercel.app/</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-04-05T17:16:51.822516" elapsed="2.850646"/>
+</kw>
+<status status="PASS" start="2024-04-05T17:16:51.822516" elapsed="2.850646"/>
+</kw>
+<kw name="Input FirstNameUK">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-04-05T17:16:54.674162" level="INFO">Typing text 'yanakorn' into text field 'name=firstNameUK'.</msg>
+<arg>name=firstNameUK</arg>
+<arg>${INPUT_FIRSTNAMEENG}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-05T17:16:54.674162" elapsed="0.094021"/>
+</kw>
+<status status="PASS" start="2024-04-05T17:16:54.674162" elapsed="0.094021"/>
+</kw>
+<kw name="Click Element Field">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-04-05T17:16:54.770183" level="INFO">Clicking element 'id=firstNameTH'.</msg>
+<arg>id=firstNameTH</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-05T17:16:54.770183" elapsed="0.040515"/>
+</kw>
+<status status="PASS" start="2024-04-05T17:16:54.770183" elapsed="0.040515"/>
+</kw>
+<kw name="Verify FirstnameUK Results">
+<kw name="Wait Until Page Contains" owner="SeleniumLibrary">
+<arg>${RESULT_FIRSTNAMEENG}</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<status status="PASS" start="2024-04-05T17:16:54.811698" elapsed="0.010002"/>
+</kw>
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2024-04-05T17:16:54.829702" level="INFO">Current page contains text 'ชื่อต้องเริ่มด้วยตัวใหญ่และตามด้วยตัวเล็ก'.</msg>
+<arg>${RESULT_FIRSTNAMEENG}</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2024-04-05T17:16:54.821700" elapsed="0.008002"/>
+</kw>
+<status status="PASS" start="2024-04-05T17:16:54.811698" elapsed="0.018004"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2024-04-05T17:16:54.903722" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2024-04-05T17:16:54.829702" elapsed="0.075020"/>
+</kw>
+<doc>Test case ชื่อต้องเริ่มด้วยตัวใหญ่และตามด้วยตัวเล็ก</doc>
+<status status="PASS" start="2024-04-05T17:16:51.820515" elapsed="3.084207"/>
+</test>
+<test id="s1-t2" name="Inpu GoogleLastNameUK" line="33">
+<kw name="Open Google">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-04-05T17:16:54.906723" level="INFO">Opening browser 'Chrome' to base url 'https://form-validation-five-blond.vercel.app/'.</msg>
+<arg>https://form-validation-five-blond.vercel.app/</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-04-05T17:16:54.906723" elapsed="1.529055"/>
+</kw>
+<status status="PASS" start="2024-04-05T17:16:54.906723" elapsed="1.529055"/>
+</kw>
+<kw name="Input LastNameUK">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-04-05T17:16:56.436779" level="INFO">Typing text 'srinuan' into text field 'name=lastNameUK'.</msg>
+<arg>name=lastNameUK</arg>
+<arg>${INPUT_LastNameUK}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-05T17:16:56.435778" elapsed="0.103024"/>
+</kw>
+<status status="PASS" start="2024-04-05T17:16:56.435778" elapsed="0.103024"/>
+</kw>
+<kw name="Click Element Field">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-04-05T17:16:56.539802" level="INFO">Clicking element 'id=firstNameTH'.</msg>
+<arg>id=firstNameTH</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-05T17:16:56.539802" elapsed="0.044010"/>
+</kw>
+<status status="PASS" start="2024-04-05T17:16:56.539802" elapsed="0.044010"/>
+</kw>
+<kw name="Verify LastNameUK Results">
+<kw name="Wait Until Page Contains" owner="SeleniumLibrary">
+<arg>${RESULT_LastNameUK}</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<status status="PASS" start="2024-04-05T17:16:56.584812" elapsed="0.011002"/>
+</kw>
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2024-04-05T17:16:56.604529" level="INFO">Current page contains text 'นามสกุลต้องเริ่มด้วยตัวใหญ่และตามด้วยตัวเล็ก'.</msg>
+<arg>${RESULT_LastNameUK}</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2024-04-05T17:16:56.595814" elapsed="0.008715"/>
+</kw>
+<status status="PASS" start="2024-04-05T17:16:56.584812" elapsed="0.019717"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2024-04-05T17:16:56.676545" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-2.png"&gt;&lt;img src="selenium-screenshot-2.png" width="800px"&gt;&lt;/a&gt;</msg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2024-04-05T17:16:56.604529" elapsed="0.072016"/>
+</kw>
+<doc>Test case นามสกุลต้องเริ่มด้วยตัวใหญ่และตามด้วยตัวเล็ก</doc>
+<status status="PASS" start="2024-04-05T17:16:54.904722" elapsed="1.771823"/>
+</test>
+<test id="s1-t3" name="Inpu GoogleGmail" line="42">
+<kw name="Open Google">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-04-05T17:16:56.678546" level="INFO">Opening browser 'Chrome' to base url 'https://form-validation-five-blond.vercel.app/'.</msg>
+<arg>https://form-validation-five-blond.vercel.app/</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-04-05T17:16:56.678546" elapsed="1.520137"/>
+</kw>
+<status status="PASS" start="2024-04-05T17:16:56.678546" elapsed="1.520137"/>
+</kw>
+<kw name="Input Email">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-04-05T17:16:58.199683" level="INFO">Typing text 'Yanakorn@webmail.npru.ac.th' into text field 'name=email'.</msg>
+<arg>name=email</arg>
+<arg>${INPUT_EMAIL}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-05T17:16:58.199683" elapsed="0.130030"/>
+</kw>
+<status status="PASS" start="2024-04-05T17:16:58.199683" elapsed="0.131030"/>
+</kw>
+<kw name="Click Element Field">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-04-05T17:16:58.330713" level="INFO">Clicking element 'id=firstNameTH'.</msg>
+<arg>id=firstNameTH</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-05T17:16:58.330713" elapsed="0.042009"/>
+</kw>
+<status status="PASS" start="2024-04-05T17:16:58.330713" elapsed="0.042009"/>
+</kw>
+<kw name="Verify Email Results">
+<kw name="Wait Until Page Contains" owner="SeleniumLibrary">
+<arg>${RESULT_EMAIL}</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<status status="PASS" start="2024-04-05T17:16:58.373722" elapsed="0.011003"/>
+</kw>
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2024-04-05T17:16:58.393727" level="INFO">Current page contains text 'อีเมลต้องมีชื่อโดเมนเฉพาะ Gmail'.</msg>
+<arg>${RESULT_EMAIL}</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2024-04-05T17:16:58.384725" elapsed="0.009002"/>
+</kw>
+<status status="PASS" start="2024-04-05T17:16:58.373722" elapsed="0.020005"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2024-04-05T17:16:58.471692" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-3.png"&gt;&lt;img src="selenium-screenshot-3.png" width="800px"&gt;&lt;/a&gt;</msg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2024-04-05T17:16:58.394727" elapsed="0.076965"/>
+</kw>
+<doc>Test case อีเมลต้องมีชื่อโดเมนเฉพาะ Gmail</doc>
+<status status="PASS" start="2024-04-05T17:16:56.677545" elapsed="1.794147"/>
+</test>
+<test id="s1-t4" name="Inpu Password" line="51">
+<kw name="Open Google">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-04-05T17:16:58.473692" level="INFO">Opening browser 'Chrome' to base url 'https://form-validation-five-blond.vercel.app/'.</msg>
+<arg>https://form-validation-five-blond.vercel.app/</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-04-05T17:16:58.473692" elapsed="1.528414"/>
+</kw>
+<status status="PASS" start="2024-04-05T17:16:58.472692" elapsed="1.529414"/>
+</kw>
+<kw name="Input Password">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-04-05T17:17:00.004106" level="INFO">Typing text '002' into text field 'name=password'.</msg>
+<arg>name=password</arg>
+<arg>${INPUT_PASSWORD}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-05T17:17:00.004106" elapsed="0.086020"/>
+</kw>
+<status status="PASS" start="2024-04-05T17:17:00.004106" elapsed="0.086020"/>
+</kw>
+<kw name="Click Element Field">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-04-05T17:17:00.091126" level="INFO">Clicking element 'id=firstNameTH'.</msg>
+<arg>id=firstNameTH</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-05T17:17:00.091126" elapsed="0.045010"/>
+</kw>
+<status status="PASS" start="2024-04-05T17:17:00.090126" elapsed="0.046010"/>
+</kw>
+<kw name="Verify Password Results">
+<kw name="Wait Until Page Contains" owner="SeleniumLibrary">
+<arg>${RESULT_PASSWORD}</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<status status="PASS" start="2024-04-05T17:17:00.137136" elapsed="0.010003"/>
+</kw>
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2024-04-05T17:17:00.154140" level="INFO">Current page contains text 'รหัสผ่านต้องมีอย่างน้อย 6 ตัวอักษร'.</msg>
+<arg>${RESULT_PASSWORD}</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2024-04-05T17:17:00.147139" elapsed="0.008001"/>
+</kw>
+<status status="PASS" start="2024-04-05T17:17:00.137136" elapsed="0.018004"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2024-04-05T17:17:00.233024" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-4.png"&gt;&lt;img src="selenium-screenshot-4.png" width="800px"&gt;&lt;/a&gt;</msg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2024-04-05T17:17:00.155140" elapsed="0.078724"/>
+</kw>
+<doc>Test case รหัสผ่านต้องมีอย่างน้อย 6 ตัวอักษร</doc>
+<status status="PASS" start="2024-04-05T17:16:58.472692" elapsed="1.761172"/>
+</test>
+<test id="s1-t5" name="Inpu Phone Number" line="59">
+<kw name="Open Google">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-04-05T17:17:00.235863" level="INFO">Opening browser 'Chrome' to base url 'https://form-validation-five-blond.vercel.app/'.</msg>
+<arg>https://form-validation-five-blond.vercel.app/</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-04-05T17:17:00.235863" elapsed="1.552340"/>
+</kw>
+<status status="PASS" start="2024-04-05T17:17:00.235863" elapsed="1.552340"/>
+</kw>
+<kw name="Input PhoneNumber">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-04-05T17:17:01.789203" level="INFO">Typing text '09240885Yan' into text field 'name=phone'.</msg>
+<arg>name=phone</arg>
+<arg>${INPUT_PHONENUM}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-05T17:17:01.789203" elapsed="0.100022"/>
+</kw>
+<status status="PASS" start="2024-04-05T17:17:01.789203" elapsed="0.100022"/>
+</kw>
+<kw name="Click Element Field">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-04-05T17:17:01.890225" level="INFO">Clicking element 'id=firstNameTH'.</msg>
+<arg>id=firstNameTH</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-05T17:17:01.890225" elapsed="0.042010"/>
+</kw>
+<status status="PASS" start="2024-04-05T17:17:01.890225" elapsed="0.043010"/>
+</kw>
+<kw name="Verify PhoneNumber Results">
+<kw name="Wait Until Page Contains" owner="SeleniumLibrary">
+<arg>${RESULT_PHONENUM}</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<status status="PASS" start="2024-04-05T17:17:01.933235" elapsed="0.010002"/>
+</kw>
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2024-04-05T17:17:01.951240" level="INFO">Current page contains text 'เบอร์โทรศัพท์ต้องประกอบด้วยตัวเลข 10 หลักเท่านั้น'.</msg>
+<arg>${RESULT_PHONENUM}</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2024-04-05T17:17:01.943237" elapsed="0.008003"/>
+</kw>
+<status status="PASS" start="2024-04-05T17:17:01.933235" elapsed="0.018005"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2024-04-05T17:17:02.030258" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-5.png"&gt;&lt;img src="selenium-screenshot-5.png" width="800px"&gt;&lt;/a&gt;</msg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2024-04-05T17:17:01.951240" elapsed="0.079018"/>
+</kw>
+<doc>Test case เบอร์โทรศัพท์ต้องประกอบด้วยตัวเลข 10 หลักเท่านั้น</doc>
+<status status="PASS" start="2024-04-05T17:17:00.233864" elapsed="1.796394"/>
+</test>
+<status status="PASS" start="2024-04-05T17:16:51.636096" elapsed="10.395162"/>
+</suite>
+<statistics>
+<total>
+<stat pass="5" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="5" fail="0" skip="0" id="s1" name="Tests chema validation">Tests chema validation</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
